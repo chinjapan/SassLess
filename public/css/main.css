@@ -1,0 +1,24 @@
+.display-flex {
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+}
+.hide {
+  display: none!important;
+}
+.header {
+  margin: 5px 0;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  flex-direction: column;
+}
+.header__logo {
+  margin-right: 5px;
+  align-self: center;
+}
+@media only screen and (min-width: 1025px) {
+  .header {
+    flex-direction: row;
+  }
+}

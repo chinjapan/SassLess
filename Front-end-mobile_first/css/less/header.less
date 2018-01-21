@@ -1,0 +1,24 @@
+.bem_main-header {
+    margin: 5px 0;
+    .display-flex; 
+    flex-direction: column;
+    &__logo {
+        margin-right: 5px;
+        align-self: center;
+        
+    }
+    &__top-ads {
+        flex: 1;    
+    }
+    &__top-ads-header {
+        width: @mobile-body-width;
+    }
+}
+@media @MQ_L {
+    .bem_main-header {       
+        flex-direction: row;         
+        &__top-ads-header {
+            width: @desktop-body-width;
+        }         
+    }
+}
