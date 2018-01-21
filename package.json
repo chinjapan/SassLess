@@ -10,6 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
     "gulp-less": "^3.4.0"
-  }
+  },
+  "dependencies": {}
 }
