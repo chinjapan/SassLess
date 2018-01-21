@@ -46,6 +46,9 @@
   margin: 5px 5px 5px 0px;
   padding: 20px;
 }
+.container__link {
+  text-decoration: none;
+}
 .container__info {
   color: #DCDCDC;
 }
@@ -69,6 +72,7 @@
   background-color: #ff6347;
 }
 .nav__link {
+  text-decoration: none;
   padding: 10px;
   color: #fff;
   display: inline-block;
