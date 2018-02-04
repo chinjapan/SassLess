@@ -55,6 +55,7 @@
   border-radius: 5px;
   margin: 5px 5px 5px 0px;
   padding: 20px;
+  margin-bottom: 5px;
 }
 .container__link {
   text-decoration: none;
@@ -93,11 +94,11 @@
   background-color: #DCDCDC;
   font-size: 14px;
 }
-.right__column {
-  display: flex;
+.container__column {
+  display: inline-block;
   flex-direction: column;
 }
-.right__sidebar {
+.container__sidebar {
   background-color: #fff;
   border-radius: 5px;
   margin: 5px 0px 5px 5px;
