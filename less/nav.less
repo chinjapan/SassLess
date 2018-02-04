@@ -5,22 +5,21 @@
     &__list{
         display: flex;
         list-style: none;
-        &:hover{
+        :hover{
             background-color:rgb(255, 99, 71);
         }
+        display:box;
         margin:0;
         padding: 0;
     }
-    &__item {
-        &:first-child {
-            margin-left:15px;
-            background-color:rgb(255, 99, 71);
-        }
-        &__link{
-            text-decoration:none;
-            padding: 10px;
-            color:#fff;
-            display:inline-block;
-        }
+    &__item:first-child{
+        margin-left:15px;
+        background-color:rgb(255, 99, 71); 
+    }
+    &__link{
+        text-decoration:none;
+        padding: 10px;
+        color:#fff;
+        display:inline-block;
     }
 }

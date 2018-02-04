@@ -15,14 +15,24 @@
   align-self: center;
 }
 .header__ads {
-  display: inline-block;
+  display: block;
 }
-@media only screen and (min-width: 768px) {
-  .bem_main-header {
-    flex-direction: row;
+.header__adsimg {
+  width: 99%;
+  height: 94%;
+}
+@media only screen and (min-width: 1025px) {
+  .header {
+    display: flex;
   }
-  .bem_main-header__top-ads-header {
-    width: 80%;
+  .header__logo {
+    width: 30%;
+  }
+  .header__ads {
+    width: 70%;
+  }
+  .header__logoimg {
+    width: 100%;
   }
 }
 .footer {
@@ -60,17 +70,18 @@
 .nav__list {
   display: flex;
   list-style: none;
+  display: box;
   margin: 0;
   padding: 0;
 }
-.nav__list:hover {
+.nav__list :hover {
   background-color: #ff6347;
 }
 .nav__item:first-child {
   margin-left: 15px;
   background-color: #ff6347;
 }
-.nav__item__link {
+.nav__link {
   text-decoration: none;
   padding: 10px;
   color: #fff;

@@ -3,19 +3,27 @@
     display: flex;
     &__logo {
         margin-right: 5px;
-        align-self: center;
+        align-self: center;   
     }
     &__ads {
-        display: inline-block;
+        display: block;
+    }
+    &__adsimg {
+        width: 99%;
+        height: 94%;
     }
 }
-@media @MQ_M-L {
-    .bem_main-header {
-        flex-direction: row;
-        &__top-ads-header {
-            width: @desktop-body-width;
+@media  @MQ_L{
+    .header {
+        display: flex;
+        &__logo {
+            width: 30%; 
+        }
+        &__ads {
+            width: 70%;
+        }
+        &__logoimg {
+            width: 100%;
         }
     }
-    
-}
-
+}      
