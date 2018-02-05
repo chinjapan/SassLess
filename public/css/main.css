@@ -21,18 +21,23 @@
   width: 99%;
   height: 94%;
 }
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+  .container__content {
+    height: 46.1%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container__content {
+    height: 45.4%;
+  }
+}
 @media only screen and (min-width: 1025px) {
-  .header {
-    display: flex;
+  .container__content {
+    height: 42.2%;
   }
-  .header__logo {
-    width: 30%;
-  }
-  .header__ads {
-    width: 70%;
-  }
-  .header__logoimg {
-    width: 100%;
+  .header__adsimg {
+    width: 99%;
+    height: 94%;
   }
 }
 .footer {

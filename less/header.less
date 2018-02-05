@@ -13,18 +13,27 @@
         height: 94%;
     }
 }
-
+@media @MQ_S {
+    .container__content{
+        height: 46.1%;
+    }
+}
+@media @MQ_M{
+    .container__content{
+        height: 45.4%;
+    } 
+}
 @media  @MQ_L{
-    .header {
-        display: flex;
-        &__logo {
-            width: 30%; 
-        }
-        &__ads {
-            width: 70%;
-        }
-        &__logoimg {
-            width: 100%;
+    .container__content{      
+        height: 42.2%;
+    } 
+
+    .header{
+        &__adsimg {
+            width: 99%;
+            height: 94%;
         }
     }
-}      
+
+}
+
