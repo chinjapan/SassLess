@@ -35,9 +35,23 @@
   .container__content {
     height: 42.2%;
   }
+  .header {
+    margin: 5px 0;
+    display: flex;
+  }
+  .header__logo {
+    margin-right: 5px;
+    align-self: center;
+  }
+  .header__ads {
+    display: block;
+  }
+  .header__logoimg {
+    width: 115%;
+  }
   .header__adsimg {
-    width: 99%;
-    height: 94%;
+    margin-left: 5%;
+    width: 115%;
   }
 }
 .footer {
